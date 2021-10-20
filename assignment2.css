@@ -1,0 +1,132 @@
+
+*{
+	box-sizing: border-box;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 980px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+	background-size: 100% auto;;
+	background-color: whitesmoke;
+	color: #303034;
+	background-position: center;
+	background-attachment: fixed;
+    float: none !important;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%; 
+    padding-top: 20px;
+    display: block;
+    box-shadow: 0 0 1em 0 #ffe5cd;
+    border-radius: 0.5em;
+    
+    padding-right: 20px;
+    padding-left: 20px;
+	/* background-color: #fff; */
+    font-family: sans-serif;
+
+    border-radius: 20px;
+}
+
+
+.form button.submit{
+	background: rgba(255,255,255,0.25);
+	border: 1px solid #333;
+	line-height: 1em;
+	padding: 0.5em 0.5em;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.form button:hover,
+.form button:focus,
+.form button:active,
+.form button.loading{
+	background: #ffe5cd;
+	color: #000;
+	outline: none;
+}
+
+
+.form label{
+	border-bottom: 1px solid #333;
+	display: block;
+	font-size: 1.25em;
+	margin-bottom: 0.5em;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.form label.half{
+	float: left;
+	width: 50%;
+}
+.form label.half:nth-of-type(even){
+	border-left: 1px solid #333;
+	padding-left: 0.25em;
+}
+.form label input{
+	background: none;
+	border: none;
+	line-height: 1em;
+	font-weight: 300;
+	padding: 0.125em 0.25em;
+	width: 100%;
+}
+.form label input:focus{
+	outline: none;
+}
+.form label span.label-text{
+	display: block;
+	font-size: 0.5em;
+	font-weight: bold;
+	padding-left: 0.5em;
+	text-transform: uppercase;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+
+h1{
+	font-size: 3em;
+	margin: 0 0 0.5em 0;
+	text-align: center;
+	font-family: 'Cookie', cursive;
+}
+h1 img{
+	height: auto;
+	margin: 0 auto;
+	max-width: 290px;
+	width: 100%;
+}
+html{
+	font-size: 18px;
+	height: 100%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+tr:nth-child(even){background-color: #ffe5cd;}
+  
